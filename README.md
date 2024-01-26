@@ -1,5 +1,5 @@
 # Background Removal
-[U-Net](https://arxiv.org/abs/1505.04597v1) Like Pretrained Model For Human Body Detection ([pytorch](https://pytorch.org/), [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation))
+[U-Net](https://arxiv.org/abs/1505.04597v1) Like([VGG](https://paperswithcode.com/method/vgg) Encoder) Pretrained Model For Human Body Detection ([pytorch](https://pytorch.org/), [Semantic Segmentation](https://paperswithcode.com/task/semantic-segmentation))
 
 #### **Quick Links**
 - [Dependencies](#Dependencies)
@@ -8,7 +8,7 @@
 
 ## Dependencies
 - Install Dependencies `$ pip install -r requirements.txt`
-- Download model weights [Here](https://drive.google.com/drive/folders/1fs-PqE-yNvbis628gpS5-UaTSR2Xli8J?usp=sharing), place it in `Structure/`
+- Download model weights [Here](), place it in `Structure/`
 
 ## Usage:
 ```python
@@ -55,8 +55,8 @@ Replace current background with loaded background image.
 ![](Images/img_12.jpg)
 ![](Images/img_13.jpg)
 ![](Images/img_14.jpg)
-![](Images/img_15.jpg)
 ![](Images/img_16.jpg)
+![](Images/img_17.jpg)
 ![](Images/img_18.jpg)
 
 ### 🛡️ License <a name="license"></a>
