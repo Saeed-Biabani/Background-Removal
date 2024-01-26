@@ -37,7 +37,7 @@ Detect object(human body) area.
 ```python
   res = ReplaceBG(img, mask, bg)
 ```
-Replace current background with loaded backgournd image.
+Replace current background with loaded background image.
 
 ## Examples
 
@@ -57,8 +57,7 @@ Replace current background with loaded backgournd image.
 ![](Images/img_14.jpg)
 ![](Images/img_15.jpg)
 ![](Images/img_16.jpg)
-![](Images/img_17.jpg)
 ![](Images/img_18.jpg)
 
 ### 🛡️ License <a name="license"></a>
-Project is distributed under [MIT License](https://github.com/Saeed-Biabani/Document-Scanner/blob/main/LICENSE)
+Project is distributed under [MIT License](https://github.com/Saeed-Biabani/Background-Removal/blob/main/LICENSE)
