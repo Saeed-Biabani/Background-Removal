@@ -3,7 +3,7 @@
 
 #### **Quick Links**
 - [Dependencies](#Dependencies)
-- [Dependencies](#Implementation)
+- [Implementation](#Implementation)
 - [Usage](#Usage)
 - [Examples](#Examples)
 
