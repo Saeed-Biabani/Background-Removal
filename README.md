@@ -3,12 +3,32 @@
 
 #### **Quick Links**
 - [Dependencies](#Dependencies)
+- [Dependencies](#Implementation)
 - [Usage](#Usage)
 - [Examples](#Examples)
 
 ## Dependencies
 - Install Dependencies `$ pip install -r requirements.txt`
 - Download model weights [Here](https://drive.google.com/drive/folders/1fs-PqE-yNvbis628gpS5-UaTSR2Xli8J?usp=sharing), place it in `Structure/`
+
+## Implementation
+### VGG Encoder Implementation
+```python
+  def VGGEncoder():
+    weights = VGG16_Weights.DEFAULT
+    base_model = vgg16(weights=weights)
+    base_model.training = False
+        
+    encoder_seq =  nn.ModuleList()
+    moduls = nn.Sequential()
+    for layer in list(base_model.features.children()):
+        if isinstance(layer, nn.modules.pooling.MaxPool2d):
+            encoder_seq.append(moduls)
+            moduls = nn.Sequential()
+        else:
+            moduls.append(layer)
+    return encoder_seq
+```
 
 ## Usage:
 ```python
