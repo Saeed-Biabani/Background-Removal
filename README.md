@@ -9,7 +9,7 @@
 
 ## Dependencies
 - Install Dependencies `$ pip install -r requirements.txt`
-- Download model weights [Here](https://drive.google.com/drive/folders/1Xqn1tGY0DCj_kL-y1_E2HhoaSJ1JM0uq?usp=sharing), place it in `model_weights/`
+- Download model weights [Here](), place it in `model_weights/`
 
 ## Implementation
 ### VGG Encoder Implementation
