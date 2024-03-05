@@ -9,7 +9,7 @@
 
 ## Dependencies
 - Install Dependencies `$ pip install -r requirements.txt`
-- Download model weights [Here](), place it in `model_weights/`
+- Download model weights [Here](https://huggingface.co/ordaktaktak/Background-Removal), place it in `model_weights/`
 
 ## Implementation
 ### VGG Encoder Implementation
